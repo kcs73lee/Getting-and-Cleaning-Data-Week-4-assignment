@@ -11,4 +11,4 @@ Used truncated names such as "ytrain" and "ytest" to read .txt files using read.
 Used head() and str() functions to make sure data is ok after merging data
 Used tedious name() function for naming each variable name in data set
 Create tidy data file called "tidydat.txt"
-##rest of detail
+
