@@ -7,7 +7,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The run_analysis.R script performs all the analysis
 Used truncated names such as "ytrain" and "ytest" to read .txt files using read.table
 "activity" is the activity identification for the ActTypes or activity types such as WALKING. WALKING_UPSTAIRS, etc.
-"subject" is the ID of the indicual performing the ActTypes
+"subject" is the ID of the indivdual performing the ActTypes
 Used head() and str() functions to make sure data is ok after merging data
 Used tedious name() function for naming each variable name in data set
 Create tidy data file called "tidydat.txt"
