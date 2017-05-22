@@ -54,4 +54,4 @@ tidydat<- aggregate(. ~subject+ activity, datset_actnames, mean)
 tidydat<- tidydat[order(tidydat$subject, tidydat$activity),]
 write.table(tidydat, file= "tidydat.txt", row.name= FALSE, col.names = TRUE)
 
-## Complete!
+## Complete
